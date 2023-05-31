@@ -1,37 +1,55 @@
 {
-    "name": "Radio Malaysia",
-    "description": "Radio Pilihan Malaysia dari Ayie",
-    "icons": [
-        {
-            "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/144.png?v=1685535014194",
-            "type": "image/png",
-            "sizes": "144x144"
-        },
-        {
-            "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/192.png?v=1685535073766",
-            "type": "image/png",
-            "sizes": "192x192"
-        },
-        {
-            "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/256.png?v=1685535081114",
-            "type": "image/png",
-            "sizes": "256x256"
-        },
-        {
-            "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/384.png?v=1685535085602",
-            "type": "image/png",
-            "sizes": "384x384"
-        },
-        {
-            "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/512.png?v=1685535089700",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
-    ],
-    "short_name": "Radio Malaysia",
-    "start_url": "/",
-    "scope": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#3f51b5"
+  "name": "Radio Malaysia",
+  "description": "Radio Pilihan Malaysia dari Ayie",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/144.png?v=1685535014194",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/192.png?v=1685535073766",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/256.png?v=1685535081114",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/384.png?v=1685535085602",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.glitch.global/e46840f0-ab33-4e00-9460-b7576793c110/512.png?v=1685535089700",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "short_name": "Radio Malaysia",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3f51b5",
+  "orientation": "portrait",
+  "display_override": [
+    "standalone",
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "window-controls-overlay"
+  ],
+  "lang": "ms",
+  "dir": "auto",
+  "categories": [
+    "music"
+  ]
 }
